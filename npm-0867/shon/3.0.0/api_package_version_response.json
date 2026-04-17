@@ -1,0 +1,75 @@
+{
+    "name": "shon",
+    "description": "A JavaScript command-line argument parser",
+    "author": {
+        "name": "Kris Kowal",
+        "email": "kris@cixar.com"
+    },
+    "version": "3.0.0",
+    "directories": {
+        "test": "test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kriskowal/shon.git"
+    },
+    "keywords": [
+        "argument",
+        "parser",
+        "command"
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/kriskowal/shon/issues"
+    },
+    "homepage": "https://github.com/kriskowal/shon#readme",
+    "main": "./command.js",
+    "bin": {
+        "shon": "bin/shon.js",
+        "usage2json": "bin/usage2json.js"
+    },
+    "devDependencies": {
+        "faucet": "0.0.1",
+        "istanbul": "^0.3.21",
+        "opn-cli": "^1.0.0",
+        "pegjs": "^0.9.0",
+        "tape": "^4.2.0"
+    },
+    "dependencies": {
+        "camelcase": "^1.2.1",
+        "rezult": "^1.1.0"
+    },
+    "scripts": {
+        "test": "npm run build-parser -s && node test",
+        "cover": "istanbul cover --report html --print node test/index.js -- --color | faucet && istanbul report text",
+        "view-cover": "opn coverage/index.html",
+        "build-parser": "pegjs --allowed-start-rules line,document usage.pegjs usage-parser.js"
+    },
+    "gitHead": "3951483ab3097baccbd0b18a174231131d5e338b",
+    "_id": "shon@3.0.0",
+    "_shasum": "dbabc000fb39c23c0a3313b9e40e9e688663034d",
+    "_from": ".",
+    "_npmVersion": "2.14.7",
+    "_nodeVersion": "0.10.32",
+    "_npmUser": {
+        "name": "kriskowal",
+        "email": "kris.kowal@cixar.com"
+    },
+    "dist": {
+        "shasum": "dbabc000fb39c23c0a3313b9e40e9e688663034d",
+        "tarball": "https://registry.npmjs.org/shon/-/shon-3.0.0.tgz",
+        "integrity": "sha512-x+aALo5Lc9RcHh/Eb0GXDIxyRSyfKLlqTjinQGn2dqjhkstD1lUL+OyBl0//0dIpQdlYIbVipBkc2fq5pPQBWg==",
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIE3b2MxxCMU3lfzs8NnPRBV/0FyLoVDu8lZpdi+t7N/UAiEAiZV+iDwwjhm5+vP8DVsgWEVgUmXVja0YAIcsPL/QQX8="
+            }
+        ]
+    },
+    "maintainers": [
+        {
+            "name": "kriskowal",
+            "email": "kris.kowal@cixar.com"
+        }
+    ]
+}

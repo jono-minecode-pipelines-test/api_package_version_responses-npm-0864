@@ -1,0 +1,46 @@
+{
+    "name": "pjwstk",
+    "version": "0.0.1-security",
+    "description": "security holding package",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/npm/security-holder.git"
+    },
+    "bugs": {
+        "url": "https://github.com/npm/security-holder/issues"
+    },
+    "homepage": "https://github.com/npm/security-holder#readme",
+    "_id": "pjwstk@0.0.1-security",
+    "_nodeVersion": "12.20.1",
+    "_npmVersion": "6.14.10",
+    "dist": {
+        "integrity": "sha512-Pd6r9EvlsPgOwJUwXhDHtTimaPPanOUG+bRhJSjV6znVJGBSWpCp/RV9ZkNnkKr+d3EzS/o8TJKawP2RoLMiaA==",
+        "shasum": "2306e58f178b83afbd81b4f05cd1267c2c75b8df",
+        "tarball": "https://registry.npmjs.org/pjwstk/-/pjwstk-0.0.1-security.tgz",
+        "fileCount": 2,
+        "unpackedSize": 425,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgTIQWCRA9TVsSAnZWagAA3gwP/12zAIsdaVk00xOIo0TE\nSpKgVySCRg6vcPekCJEN6CSx9ldgOmpAk5ZimReLimn19++cjgttrTrfhKpS\nG87ln78alkn4dhoIauLn8uCEVg2HcYhFPO+tS54UxqTcIiLR7ysoJ9+SyG8u\n01kwD3hSL8hggWfdJl7gXRvw08USyNGmIbXhbWAvoWbRJfgfYpMF4vNuLrmD\nAZOCcQXpZ8qvFwNn6NU5WfPTU6NSS5JLWm3iN/5pSbD2C2GR9tDGNc+bX3+K\nv7iz5EXHHqr0nO6hxbiSUAVV/iUDGiu/Pq870FEMPmoOgR2i0/gpmQ3AoMU2\nt5x1yNE9wpdXq9TfuSllGM1Djgy799JSyLzuoGnO02kbAKBelcLZmJZ0AVfH\nzoVAzAfVwGdAnoOa8NZAXFy3KETFDdeKGSQnEZ5Xp2IoxLi7lcGXx0Wd1SEV\npjgKBfOxqELax2E9H6n73mIlu9h0PVYnl4IvsexImwqg+WZ9CskxHvVpcEc8\n4Ownk5+Nmy+zr0yccRIdTTRUbdz51Wz9TqMCRZDpIEDut3zzYZ20l5TKnIw7\nwXOeKZ8kFGhhTG3Sn91Go0e8q2aqW6rQnNhm7TPQBucDyjJnmyGP+jcxvdNk\nt7JVEN1EKXuueNjaNmSiOf/k1wl9j7lrTwIwhWdi9Y4iZy0PttQst1dqaeH4\nLKSj\r\n=KOpG\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIENrmj/k+MwvIc/jHL/hIUiStbTUon5Jt0kqHpG++oz/AiEA/kQR4IrKEAM+7KFkZhbKBhF7RdxBvr2hXjt2lLfUYl4="
+            }
+        ]
+    },
+    "_npmUser": {
+        "name": "npm",
+        "email": "npm@npmjs.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "npm",
+            "email": "npm@npmjs.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/pjwstk_0.0.1-security_1615627286483_0.9022560365912686"
+    },
+    "_hasShrinkwrap": false
+}
