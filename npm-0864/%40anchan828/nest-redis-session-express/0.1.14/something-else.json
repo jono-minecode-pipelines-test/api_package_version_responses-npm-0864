@@ -1,0 +1,89 @@
+{
+    "author": {
+        "name": "anchan828",
+        "email": "anchan828@gmail.com"
+    },
+    "bugs": {
+        "url": "https://github.com/anchan828/nest-session/issues"
+    },
+    "description": "> TODO: description",
+    "directories": {
+        "dist": "dist"
+    },
+    "homepage": "https://github.com/anchan828/nest-session/tree/master/packages/redis-session#readme",
+    "license": "MIT",
+    "main": "./dist/index.js",
+    "name": "@anchan828/nest-redis-session-express",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/anchan828/nest-session.git"
+    },
+    "scripts": {
+        "build": "node ../../node_modules/typescript/bin/tsc -p tsconfig.build.json",
+        "build:watch": "node ../../node_modules/typescript/bin/tsc --watch",
+        "copy:license": "cp ../../LICENSE ./",
+        "lint": "node ../../node_modules/eslint/bin/eslint --ignore-path ../../.eslintignore '**/*.ts' '**/*.spec.ts'",
+        "lint:fix": "npm run lint -- --fix",
+        "prepublishOnly": "rm -rf dist && npm run build && rm -f dist/*.tsbuildinfo && npm run copy:license",
+        "test": "node ../../node_modules/jest/bin/jest --coverage --logHeapUsage --runInBand",
+        "test:debug": "node --inspect-brk node_modules/.bin/jest --runInBand --logHeapUsage",
+        "test:watch": "node ../../node_modules/jest/bin/jest --watch",
+        "watch": "rm -rf dist && node ../../node_modules/typescript/bin/tsc -w"
+    },
+    "types": "./dist/index.d.ts",
+    "version": "0.1.14",
+    "dependencies": {
+        "connect-redis": "6.0.0",
+        "express-session": "1.17.2",
+        "ioredis": "4.27.9"
+    },
+    "devDependencies": {
+        "@nestjs/common": "8.0.6",
+        "@nestjs/core": "8.0.6",
+        "@nestjs/platform-express": "8.0.6",
+        "@nestjs/testing": "8.0.6",
+        "@types/connect-redis": "0.0.17",
+        "@types/express": "4.17.13",
+        "@types/express-session": "1.17.4",
+        "@types/ioredis": "4.27.4",
+        "rxjs": "7.3.0"
+    },
+    "peerDependencies": {
+        "@nestjs/common": "^8.0.0"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "gitHead": "6824f31b5abd12856783eaeb2ac853398966448f",
+    "_id": "@anchan828/nest-redis-session-express@0.1.14",
+    "_nodeVersion": "16.9.1",
+    "_npmVersion": "lerna/4.0.0/node@v16.9.1+x64 (linux)",
+    "dist": {
+        "integrity": "sha512-QVQqLUL5kRpoviyI0F3jC0R6sHs9bhhIup6bP/EvyDUMb6PLA+F+puv2lzM9CvCoPsYQrQQFBTNB4JpHEWEEdw==",
+        "shasum": "6a2853f267ec55647419a18683e819bf64e232a2",
+        "tarball": "https://registry.npmjs.org/@anchan828/nest-redis-session-express/-/nest-redis-session-express-0.1.14.tgz",
+        "fileCount": 9,
+        "unpackedSize": 10722,
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIQDv03Z3eo1oLZhF//73N/88qm61ColijXPne1XzL8vCgQIgEHlN32mVx9gYWArmQe9lPn/UKgY0TcP2mpvwMSACCLI="
+            }
+        ]
+    },
+    "_npmUser": {
+        "name": "anchan828",
+        "email": "anchan828@gmail.com"
+    },
+    "maintainers": [
+        {
+            "name": "anchan828",
+            "email": "anchan828@gmail.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/nest-redis-session-express_0.1.14_1632025540352_0.06158015817407958"
+    },
+    "_hasShrinkwrap": false
+}
