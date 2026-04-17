@@ -1,0 +1,72 @@
+{
+    "name": "@wandersonwhcr/config",
+    "version": "1.1.1",
+    "description": "A Simple Configuration Loader for Node.js",
+    "keywords": [
+        "configuration",
+        "loader",
+        "merge"
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "glob-parent": "^3.1.0",
+        "merge": "^1.0.0",
+        "minimatch": "^3.0.2"
+    },
+    "devDependencies": {
+        "assert": "^1.0.0",
+        "eslint": "^4.6.0",
+        "eslint-config-airbnb": "^15.1.0",
+        "eslint-plugin-import": "^2.7.0",
+        "eslint-plugin-jsx-a11y": "^5.1.0",
+        "eslint-plugin-react": "^7.3.0",
+        "memfs": "^2.0.5",
+        "mocha": "^3.0.0",
+        "mocha-eslint": "^4.1.0"
+    },
+    "engines": {
+        "node": "^4.8.4"
+    },
+    "scripts": {
+        "test": "mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://wandersonwhcr@github.com/wandersonwhcr/node-config.git"
+    },
+    "gitHead": "f5896f14e55bf35ad5a55df6debaf93526923367",
+    "bugs": {
+        "url": "https://github.com/wandersonwhcr/node-config/issues"
+    },
+    "homepage": "https://github.com/wandersonwhcr/node-config#readme",
+    "_id": "@wandersonwhcr/config@1.1.1",
+    "_shasum": "15f9ecabbbfa396cd822161b5ed8186ea5c03f68",
+    "_from": ".",
+    "_npmVersion": "3.10.10",
+    "_nodeVersion": "6.11.2",
+    "_npmUser": {
+        "name": "wandersonwhcr",
+        "email": "wandersonwhcr@gmail.com"
+    },
+    "dist": {
+        "shasum": "15f9ecabbbfa396cd822161b5ed8186ea5c03f68",
+        "tarball": "https://registry.npmjs.org/@wandersonwhcr/config/-/config-1.1.1.tgz",
+        "integrity": "sha512-DNQdI2h1cgcbDlWH1iq/+eztGv8Q+DyvaOArvhPJTIePHPeQdt//E1NFp32BY4oU76s2h0DqMuXK6uGPdZM+7g==",
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEYCIQCywnv9VW5IZ1W3Syp+xmQtymAwGRy+8mryo9iKe5u6vQIhAPd7xWU90PqAk3kfglyjeRQaaxrYxrmXSJO706Vm9sYo"
+            }
+        ]
+    },
+    "maintainers": [
+        {
+            "name": "wandersonwhcr",
+            "email": "wandersonwhcr@gmail.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/config-1.1.1.tgz_1504993660248_0.622218674281612"
+    }
+}

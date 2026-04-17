@@ -1,0 +1,65 @@
+{
+    "name": "@wandersonwhcr/config",
+    "version": "1.0.3",
+    "description": "A Simple Configuration Loader for Node.js",
+    "keywords": [
+        "configuration",
+        "loader",
+        "merge"
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "merge": "^1.0.0",
+        "minimatch": "^3.0.2"
+    },
+    "devDependencies": {
+        "assert": "^1.0.0",
+        "memfs": "^2.0.5",
+        "mocha": "^3.0.0"
+    },
+    "engines": {
+        "node": "^4.8.4"
+    },
+    "scripts": {
+        "test": "mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://wandersonwhcr@github.com/wandersonwhcr/node-config.git"
+    },
+    "gitHead": "049d172c89f431e4119d676b7626fea6b8ad51a7",
+    "bugs": {
+        "url": "https://github.com/wandersonwhcr/node-config/issues"
+    },
+    "homepage": "https://github.com/wandersonwhcr/node-config#readme",
+    "_id": "@wandersonwhcr/config@1.0.3",
+    "_shasum": "e630ce092aea31aa0976c215f8320d691a8b8822",
+    "_from": ".",
+    "_npmVersion": "3.10.10",
+    "_nodeVersion": "6.11.2",
+    "_npmUser": {
+        "name": "wandersonwhcr",
+        "email": "wandersonwhcr@gmail.com"
+    },
+    "dist": {
+        "shasum": "e630ce092aea31aa0976c215f8320d691a8b8822",
+        "tarball": "https://registry.npmjs.org/@wandersonwhcr/config/-/config-1.0.3.tgz",
+        "integrity": "sha512-KvihecE4kV8krKMpxAPDvfnWXyyNRySstJAFN7K21BKUjpOHohO6Lw+NwBV5jwlZDbMq7v/iV0p5EyJhHSL6kQ==",
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIGj4GhdksB1kxlkL9ztkYBLSFWETujA8SLajewrMqyk0AiEAnHb1tWNo/zIgW4RrVk65EcnQzmtOUvbTakhqIcM+4UQ="
+            }
+        ]
+    },
+    "maintainers": [
+        {
+            "name": "wandersonwhcr",
+            "email": "wandersonwhcr@gmail.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/config-1.0.3.tgz_1503367098515_0.7421252003405243"
+    }
+}
