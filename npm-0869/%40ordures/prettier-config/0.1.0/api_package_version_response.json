@@ -1,0 +1,63 @@
+{
+    "name": "@ordures/prettier-config",
+    "version": "0.1.0",
+    "main": "index.js",
+    "description": "ordures project Prettier config",
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/ordures/prettier-config.git"
+    },
+    "prettier": "@ordures/prettier-config",
+    "author": {
+        "name": "BovineBoy",
+        "email": "yikeyumi65@gmail.com"
+    },
+    "scripts": {
+        "publish": "np"
+    },
+    "devDependencies": {
+        "np": "^7.4.0"
+    },
+    "gitHead": "722c8b23a39de0cd543ecfb090faaad692562538",
+    "bugs": {
+        "url": "https://github.com/ordures/prettier-config/issues"
+    },
+    "homepage": "https://github.com/ordures/prettier-config#readme",
+    "_id": "@ordures/prettier-config@0.1.0",
+    "_nodeVersion": "12.16.2",
+    "_npmVersion": "6.14.4",
+    "dist": {
+        "integrity": "sha512-u4LmqMKU/zuTG8voTaSQsAiZ0opyDkfSFQw7dSTejJjsuP3dUch67V4Jxyu+HNsS1V5VBEa03vAyNvQFdSObtA==",
+        "shasum": "8a5b6dd7a4d389fa52f6227541dfab178b75fb5c",
+        "tarball": "https://registry.npmjs.org/@ordures/prettier-config/-/prettier-config-0.1.0.tgz",
+        "fileCount": 3,
+        "unpackedSize": 1887,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgbqghCRA9TVsSAnZWagAAGUkP/A0rIn67DIL91+oSgiL4\nytPKLwv+CVNf3yv/j9Od3/J6g20dadG3zATGnEDA+6gBWMqLBofNU2akzUlz\n9RWePUyfnwvsuQ4lHvHQycjl1jxLQ7v1tzIdroUuk4vA9ocLu5KCcQnoMEwS\nxdR8ceunRLlBAkehvO6WosYbngtJ/tzePWZhTF54fkhGbOXXUe5reP5IzAKn\nxdrNffhQYQlYmiztKMznz/IXleXXPCcMndFJnzkD0Opt2tR0Iv6HIzpcZFNb\ntps2U/fOBW6AKNjI8yCEMrN2qby+gjJle4rGZUhjI4F5tOkG1bSai37MKP6+\nf54CQ9SVeTVWzo2QrRQXNNpvcioEz2ufzU3RJkt9Umkkaz2MQT+YcmERpNHz\nAzA2BfqA8GLtKH3Q+fnOkclgVdzJsuoi8CgOZJk96qsNkXLUd2iegSJ1Las7\nN6r7ogR21AfIONSDq38Amu+Q5aluQpiv0xSmBIfFAur08rGfPL4GQ+VeO3vG\nyYm/KjVuezM/L52dyYxF1Q1ViheSY7T02umDdpNdCbhiGSYB5AoLzrJhf7Yb\nMR2M4LrbFedMUsZsfVn3m0Ra9cd0S7aV6W/NeHh6XawdrtDWtwCWx31vCMt8\nGS869E36TVOmlJePhFJSDvHOZBzNEc2vPBhSKxDB/oMLGOab5nlMoMiZSWLZ\ntHyf\r\n=/7gM\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIF1APyuEd2L7ACqTVp6dcqm0fFV2HfpDu9A8RLIaWfvpAiEA6cQ4dmpoaBKbVkYnM5WttzEosEAikcPUdMxKNUmgPq0="
+            }
+        ]
+    },
+    "_npmUser": {
+        "name": "bovine",
+        "email": "yikeyumi65@gmail.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "bovine",
+            "email": "yikeyumi65@gmail.com"
+        },
+        {
+            "name": "zuoning",
+            "email": "943620565@qq.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/prettier-config_0.1.0_1617864736817_0.435672140076274"
+    },
+    "_hasShrinkwrap": false
+}

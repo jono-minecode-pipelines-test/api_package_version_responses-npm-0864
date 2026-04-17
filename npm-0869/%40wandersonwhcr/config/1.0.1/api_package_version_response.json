@@ -1,0 +1,60 @@
+{
+    "name": "@wandersonwhcr/config",
+    "version": "1.0.1",
+    "description": "A Simple Configuration Loader for Node.js",
+    "license": "MIT",
+    "dependencies": {
+        "merge": "^1.2.0",
+        "minimatch": "^3.0.4"
+    },
+    "devDependencies": {
+        "assert": "^1.4.1",
+        "memfs": "^2.0.11",
+        "mocha": "^3.5.0"
+    },
+    "engines": {
+        "node": "^6.11.2"
+    },
+    "scripts": {
+        "test": "mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://wandersonwhcr@github.com/wandersonwhcr/node-config.git"
+    },
+    "gitHead": "84d4ecd31cc164c2fb12829ff58dc5161de602a9",
+    "bugs": {
+        "url": "https://github.com/wandersonwhcr/node-config/issues"
+    },
+    "homepage": "https://github.com/wandersonwhcr/node-config#readme",
+    "_id": "@wandersonwhcr/config@1.0.1",
+    "_shasum": "dd672d6a5bb140c79da8add52359019680277b7b",
+    "_from": ".",
+    "_npmVersion": "3.10.10",
+    "_nodeVersion": "6.11.2",
+    "_npmUser": {
+        "name": "wandersonwhcr",
+        "email": "wandersonwhcr@gmail.com"
+    },
+    "dist": {
+        "shasum": "dd672d6a5bb140c79da8add52359019680277b7b",
+        "tarball": "https://registry.npmjs.org/@wandersonwhcr/config/-/config-1.0.1.tgz",
+        "integrity": "sha512-2f/yKnJbopqudgFx28Y9hnC7cHT+/QfVRGfGbtvF67qxFAKbYam50FS9mpA9clTLgrk/dLF7thiVf0c8jFN5Mw==",
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEYCIQCQeGbZHo5FttFmCkMHtg1lxfD1gCKO18SvUmMCdXSF9wIhAJtDD5VKpeULPdeth46N2dptTvS2yRtiSc0GevVCToQS"
+            }
+        ]
+    },
+    "maintainers": [
+        {
+            "name": "wandersonwhcr",
+            "email": "wandersonwhcr@gmail.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/config-1.0.1.tgz_1503143962661_0.8281971984542906"
+    }
+}
